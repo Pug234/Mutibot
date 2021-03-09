@@ -5,7 +5,7 @@ import atexit
 
 
 def rustbot():
-    os.system('cmd /k "cd rustbot & cargo run"')
+    os.system('cmd /k "cd rsbot & cargo run"')
 
 def pybot():
     os.system('cmd /k "cd pybot & python -i main.py"')
